@@ -1,20 +1,67 @@
-.mecenat {
-  margin: 4px 4px;
-  padding: 8px 8px;
+.welcome {
+  background: url("../images/main-bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
   color: white;
-  background: rgba(0,0,0,0.5);
+  min-height: 100vh;
+  text-align: center;
+}
+
+.mecenat {
+  max-width: 95%;
+  margin: 10px auto;
+  padding: 8px 20px;
+  color: white;
   font-family: $header-font;
   text-align: justify;
-  font-size: 1em;
+  font-size: 1.4rem;
+  border-radius: 4px;
+  text-indent: 2rem;
 }
 
-
-
-@media only screen and (max-width: 640px) {
-  .mecenat {
-  font-size: 1.2rem;
+@media only screen and (max-width: 920px) {
+  .mecenat p {
+  font-size: 1.3rem;
   }
   .mecenat h3 {
-  font-size: 20px;
+  font-size: 26px;
   }
 }
+
+  .flexbox {
+    flex-wrap: wrap;
+  }
+  .banner {
+  color: white;
+  padding-top: 70px;
+  }
+
+  .banner h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .banner h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .banner p {
+    transform: scaleY(1);
+    padding-bottom: 40px;
+    color: white;
+  }
+
+  .intro-text-part {
+    background: $text-bg;
+  }
+
+
+
+
+
+
+
+
+

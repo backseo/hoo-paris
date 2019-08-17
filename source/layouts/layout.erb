@@ -15,7 +15,7 @@
 
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
     <!--[if lt IE 9]>
@@ -30,5 +30,13 @@
     <%= yield %>
     <%= partial "footer" %>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init({
+        duration: 2000,
+        easing: 'ease-in-out',
+        delay: 0,
+      });
+  </script>
   </body>
 </html>

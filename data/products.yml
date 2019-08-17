@@ -1,4 +1,6 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: peinture_name
+  thumb: url(../images/thumbs/peinture_name.png
+  image: url(../images/peinture_name.png
+  format: grand
+  size: 160x120
+  statut: "cherche acquéreur"

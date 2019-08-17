@@ -25,8 +25,20 @@
 }
 
 .flexbox {
+  margin-top: 40px;
+  padding-top: 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   vertical-align: center;
+  background: $blackopak-bg;
+}
+
+.nav-top-offset {
+  padding-top: 120px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
 }

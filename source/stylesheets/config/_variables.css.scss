@@ -2,9 +2,9 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url('https://fonts.googleapis.com/css?family=Charm|Roboto:500i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Charm:700|Roboto:500i&display=swap');
 $base-font: "Charm", "Helvetica", "sans-serif";
-$header-font: "Roboto", "Helvetica", "sans-serif";
+$header-font: "Charm", "Helvetica", "sans-serif";
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -16,7 +16,7 @@ $header-font: "Roboto", "Helvetica", "sans-serif";
 // }
 // $my-font: "Font Name";
 // Font-size and line-height
-$base-size: 16px;
+$base-size: 18px;
 $base-height: 1.4;
 
 /* -------------------------------------
@@ -25,11 +25,13 @@ $base-height: 1.4;
 // Scheme
 $body-bg:   #753337;
 $nav-bg:    #662c2f;
+$text-bg: rgba(151,51,55,0.8);
+$blackopak-bg: rgba(0,0,0,0.5);
 $brand-color: #D23333;
 
 $red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
+$blue: #5E7AA1;
+$yellow: #9D8032;
 $orange: #E67E22;
 $green: #32B796;
 
@@ -39,3 +41,5 @@ $gray-dark:    lighten(#000, 20%);   // #333
 $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
+
+

@@ -1,0 +1,22 @@
+.parcours h2 {
+  color: $orange;
+}
+
+.parcours h3 {
+  color: $orange;
+  text-decoration: underline;
+}
+
+.parcours li {
+  color: $blackopak-bg;
+}
+
+.parcours p {
+  text-indent: 2rem;
+}
+
+@media only screen and (max-width: 780px) {
+  .parcours {
+  padding: 0px 8px;
+}
+}
