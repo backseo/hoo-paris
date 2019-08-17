@@ -9,7 +9,12 @@
   align-items: center;
   justify-content: space-around;
   color: $orange;
+  font-size: 18px;
 }
+
+.navbar-hoo p {
+    line-height: 20px;
+  }
 
 /* Optional class to fix the navbar on top */
 .navbar-hoo-fixed {
@@ -42,7 +47,6 @@
 /* Navbar standard link */
 .navbar-hoo-link {
   color: $orange;
-  font-size: 14px;
 }
 
 .navbar-hoo-link:hover {

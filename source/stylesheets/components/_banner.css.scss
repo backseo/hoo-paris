@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  color: $orange;
+  color: white;
   min-height: 100vh;
   text-align: center;
 }
@@ -15,16 +15,17 @@
 }
 
 .banner h1 {
-  font-size: 30px;
+   padding-bottom: 40px;
+  font-size: 36px;
 }
 
 .banner h3 {
-  padding-bottom: 30px;
-  font-size: 20px;
+  padding-bottom: 90px;
+  font-size: 28px;
 }
 
 .banner p {
-  transform: scaleY(1);
+  transform: scale(1.4);
   padding-bottom: 180px;
   color: white;
 }
@@ -34,30 +35,42 @@
   margin: 10px 0px;
 }
 
-.intro-left-side {
-
-  background: $body-bg;
+.intro-text-part {
+  background: transparent;
   padding: 18px;
   text-align: justify;
   text-indent: 2rem;
-  font-size: 1.4rem;
-  border-radius: 4px;
-}
-
-.intro-right-side  {
-
-  background: $body-bg;
-  padding: 18px;
-  text-align: justify;
-  text-indent: 2rem;
-  font-size: 1.4rem;
-  border-radius: 4px;
+  font-size: 1.6rem;
+  margin: 0px 5px;
 }
 
 @media only screen and (max-width: 640px) {
-
   .flexbox {
     flex-wrap: wrap;
+  }
+  .banner {
+  color: white;
+  padding-top: 70px;
+  }
+
+  .banner h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .banner h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .banner p {
+    transform: scaleY(1);
+    padding-bottom: 40px;
+    color: white;
+  }
+
+  .intro-text-part {
+    background: $body-bg;
   }
 
 }
