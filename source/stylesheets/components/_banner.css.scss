@@ -1,0 +1,64 @@
+.welcome {
+  background: url(../images/main-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  color: $orange;
+  min-height: 100vh;
+  text-align: center;
+}
+
+
+.banner {
+  color: white;
+  padding-top: 150px;
+}
+
+.banner h1 {
+  font-size: 30px;
+}
+
+.banner h3 {
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.banner p {
+  transform: scaleY(1);
+  padding-bottom: 180px;
+  color: white;
+}
+
+.banner img {
+  border: 8px $body-bg solid;
+  margin: 10px 0px;
+}
+
+.intro-left-side {
+
+  background: $body-bg;
+  padding: 18px;
+  text-align: justify;
+  text-indent: 2rem;
+  font-size: 1.4rem;
+  border-radius: 4px;
+}
+
+.intro-right-side  {
+
+  background: $body-bg;
+  padding: 18px;
+  text-align: justify;
+  text-indent: 2rem;
+  font-size: 1.4rem;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 640px) {
+
+  .flexbox {
+    flex-wrap: wrap;
+  }
+
+}
+

@@ -1,0 +1,31 @@
+.footer {
+  min-height: 10vh;
+  background: $nav-bg;
+  color: white;
+
+}
+
+.coord {
+  text-align: center;
+  color: $gray-darker;
+}
+
+.footer-menu {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer-menu li {
+  margin: 0 4px;
+  padding: 0px 20px;
+  display: inline;
+  font-size: 1rem;
+  border: 1px $gray-darker dotted;
+}
+
+.footer-menu li:hover {
+  background: $orange;
+  color: $gray;
+  border: 1px white solid;
+
+}
