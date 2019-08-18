@@ -15,9 +15,37 @@
   color: white;
   font-family: $header-font;
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   border-radius: 4px;
   text-indent: 2rem;
+}
+
+.flexbox {
+  flex-wrap: wrap;
+}
+.banner {
+  color: white;
+  padding-top: 70px;
+}
+
+.banner h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.banner h2 {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.banner p {
+  transform: scaleY(1);
+  padding-bottom: 40px;
+  color: white;
+}
+
+.intro-text-part {
+  background: $text-bg;
 }
 
 @media only screen and (max-width: 920px) {
@@ -27,37 +55,16 @@
   .mecenat h3 {
   font-size: 26px;
   }
-}
-
-  .flexbox {
-    flex-wrap: wrap;
-  }
-  .banner {
-  color: white;
-  padding-top: 70px;
-  }
-
   .banner h1 {
-    padding-bottom: 20px;
-    font-size: 30px;
-  }
-
-  .banner h3 {
     padding-bottom: 20px;
     font-size: 20px;
   }
 
-  .banner p {
-    transform: scaleY(1);
-    padding-bottom: 40px;
-    color: white;
+  .banner h2 {
+    padding-bottom: 20px;
+    font-size: 16px;
   }
-
-  .intro-text-part {
-    background: $text-bg;
-  }
-
-
+}
 
 
 
