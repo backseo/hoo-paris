@@ -15,14 +15,28 @@
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+.container-img {
   position: relative;
+  width: 98%;
+  margin: 0 auto;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
   text-align: center;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.mySlide img {
+  width: 90%
+}
+
+.container-thumbs {
+  position: relative;
+  width: 98%;
+  margin: 0 auto;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -96,5 +110,18 @@
 .active,
 .demo:hover {
   opacity: 1;
-  border: 2px $orange solid;
+  border: 1px $orange solid;
+}
+
+@media only screen and (max-width: 640px) {
+  .mySlides {
+    display: none;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .mySlide img {
+    width: 100%
+  }
 }

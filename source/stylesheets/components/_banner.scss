@@ -1,14 +1,15 @@
 .banner {
+  width: 100%;
   padding-top: 150px;
   background: $blackopak-bg;
+  height: 100vh;
 }
 
 .banner h1 {
-  padding-top: 40px;
-  transform: scale(1.4);
+  padding-top: 230px;
   color: $orange;
-  padding-bottom: 40px;
-
+  padding-bottom: 80px;
+  transform: scale(1.2);
 }
 
 .banner h2 {
@@ -44,10 +45,11 @@
 
   .banner h1 {
     padding-bottom: 20px;
-    font-size: 30px;
+    font-size: 25px;
+    transform: scale(1);
   }
 
-  .banner h3 {
+  .banner h2 {
     padding-bottom: 20px;
     font-size: 20px;
   }
