@@ -20,6 +20,10 @@
   transition: all ease-in-out 900ms;
 }
 
+.navbar-hoo a:hover {
+  text-decoration: none
+}
+
 /* Optional class to fix the navbar on top */
 .navbar-hoo-fixed {
   position: fixed;
@@ -94,4 +98,17 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+@media only screen and (max-width: 420px) {
+.langage {
+  padding: 2px;
+}
+
+  .navbar-hoo span {
+    font-size: 2rem;
+    line-height: 35px;
+    color: $orange;
+    transition: all ease-in-out 900ms;
+  }
 }

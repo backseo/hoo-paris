@@ -2,3 +2,11 @@
   float: left;
   width: 6.66%;
 }
+
+.container-thumbs-g {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+}
