@@ -1,4 +1,7 @@
-.column-r {
-  float: left;
-  width: 6.66%;
+.container-thumbs-r {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  vertical-align: center;
+  flex-wrap: wrap;
 }
