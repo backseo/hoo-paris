@@ -24,16 +24,16 @@
     <![endif]-->
   </head>
 
-  <body class="<%= page_classes %>">
+  <body>
 
     <%= partial "navbar" %>
     <%= yield %>
     <%= partial "footer" %>
 
-  <!-- stellar on top of jquery
+  <!-- stellar on top of jquery -->
   <script>$(window).stellar()</script>
   <script src="javascripts/jquery.stellar.min.js"></script>
-  <script src="https://code.jquery.com/jquery-2.0.2.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-2.0.2.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
       AOS.init();

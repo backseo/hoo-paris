@@ -46,3 +46,12 @@ body, html {
 section {
   background-attachment: fixed;
 }
+
+.bg {
+  background: url("../images/main-bg2.jpg");
+  background-color: rgba(255,255,255,0.5);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  background-origin: center center;
+}

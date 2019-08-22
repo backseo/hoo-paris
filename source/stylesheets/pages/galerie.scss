@@ -1,4 +1,6 @@
-
+.space {
+  margin: 2px;
+}
 
 .container-thumbs-g {
   display: flex;
@@ -6,4 +8,5 @@
   align-items: center;
   vertical-align: center;
   flex-wrap: wrap;
+  padding-bottom: 30px;
 }
