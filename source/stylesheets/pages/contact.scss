@@ -5,15 +5,22 @@
   min-height: 400px;
   margin-bottom: 50px;
   padding: 10px;
-  color: black;
   border-radius: 4px;
-  background: $hoo-gradient;
+  background: url(../images/main-bg2.jpg);
+  background-size: cover;
+  background-position: 20% 80%;
   font-family: $base-font;
 }
 
 .action {
   position: relative;
   text-align: center;
+  color: $orange;
+  background: $hoo-gradient;
+  padding: 5px 0px;
+  width: 70%;
+  margin: 15px auto;
+  border-radius: 4px;
 }
 
 .stylised {
@@ -36,4 +43,14 @@
   font-family: $base-font;
   font-weight: lighter;
   color: black;
+}
+
+@media only screen and (max-width: 640px) {
+  .action h3 {
+    font-size: 2rem;
+  }
+
+   .action h4 {
+    font-size: 2rem;
+  }
 }
