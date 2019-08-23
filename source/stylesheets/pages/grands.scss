@@ -39,7 +39,9 @@
   align-items: center;
   vertical-align: center;
   flex-wrap: wrap;
-  padding-bottom: 30px;
+  width: 60%;
+  margin: 0 auto;
+  height: 10vw;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -130,5 +132,11 @@
   }
   .numbertext {
     left: 0px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .container-thumbs-gr  {
+    width: 100%;
   }
 }
