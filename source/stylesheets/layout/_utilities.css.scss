@@ -38,7 +38,11 @@
   padding-top: 100px;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body, html {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -48,7 +52,7 @@ section {
 }
 
 .bg {
-  background: url("../images/main-bg2.jpg");
+  background: $hoo-gradient2;
   background-color: rgba(255,255,255,0.5);
   background-size: cover;
   background-repeat: repeat;

@@ -1,0 +1,39 @@
+.cdrfbox-contact {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 400px;
+  margin-bottom: 50px;
+  padding: 10px;
+  color: black;
+  border-radius: 4px;
+  background: $hoo-gradient;
+  font-family: $base-font;
+}
+
+.action {
+  position: relative;
+  text-align: center;
+}
+
+.stylised {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  height: auto;
+  width: 80%;
+  padding: 20px;
+  background: $hoo-gradient;
+}
+
+.form-group {
+  text-decoration: none;
+  list-style: none;
+}
+
+.form-group label,
+.form-group input {
+  font-family: $base-font;
+  font-weight: lighter;
+  color: black;
+}

@@ -1,13 +1,17 @@
-Pour ajouter vous même une photo peinture.
+Pour ajouter vous-même une photo / peinture.
+
+1/ création d'une vignette de la peinture.
 
 selectionner la photo dans un editeur d'image (ex: photoshop).
 
-créer un thumbnail (une vignette) à la dimension souhaitée (identique aux autres vignettes).
+créer une vignette à la dimension souhaitée (identique aux autres vignettes du même groupe).
 
-importer la vignette dans le dossier source/images/peintures/"...choisir le bon dossier"/thumbs
+Sauver la vignette dans le dossier Hoo-Paris.com/source/images/peintures/"...choisir le bon dossier"/thumbs
 
-importer la photo dans le dossier source/images/peintures/"...choisir le bon dossier"/images
-(Veillez à ce que le poids de la photo soit adapté aux standards web/internet).
+2/ création d'une image de la peinture.
+
+Sauver la photo dans le dossier source/images/peintures/"...choisir le bon dossier"/images
+(Veillez à ce que la photo soit à la dimension souhaitée (hauteur identique aux autres images du même groupe).
 
 ------------------------------------------------------------------------------------------------
 
@@ -31,9 +35,8 @@ Dans la partie :
 
 Ajoutez ce code en remplaçant NOM_DE_L'IMAGE par le nom de votre nouvelle vignette.
 
-<div class="column">
       <img class="demo cursor" src="../images/peintures/grands/thumbs/NOM_DE_L'IMAGE.JPG" style="width:100%" onclick="currentSlide(11)" alt="Autre peinture">
-    </div>
+
 
 -------------------------------------------------------------------------------------------------
     !!! Attention : onclick="currentSlide(ajoutez +1) à chaque nouvelle entrée (ajout de photo).

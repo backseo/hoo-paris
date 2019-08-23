@@ -12,14 +12,20 @@
 }
 
 .parcours li {
-  color: $blackopak-bg;
   color: white;
 }
 
-.parcours p {
-  text-indent: 2rem;
-}
 
 @media only screen and (max-width: 780px) {
+  .parcours h2 {
+  font-size: 2rem;
+  text-align: center;
+  }
 
+  .parcours h3 {
+    font-size: 1.6rem;
+  }
+  .parcours li {
+    font-size: 1.3rem;
+  }
 }

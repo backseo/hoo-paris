@@ -8,50 +8,68 @@
 }
 
 .title {
+  // border: 1px green solid;
   text-align: center;
   color: $orange;
   line-height: 10px;
 }
-
- .align-tool {
-    margin-left: 40px;
-  }
+.title h3 {
+  margin-top: 4px;
+  padding-bottom: 4px;
+  font-family: $base-font;
+}
 
 .footer {
+  // border: 1px red solid;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   background: transparent;
   padding-top: 5px;
+  width: 50%;
 }
 
 .footer-menu {
+  flex: 1 0 auto;
+  // border: 1px purple solid;
   color: $orange;
   padding-bottom: 10px;
   background: transparent;
+  margin-left: 40px;
 }
 
 .footer-menu ul li {
-  min-width: 160px;
-  color: $orange;
-  margin: 4px 4px;
-  padding: 0px 20px;
-  font-size: 1.6rem;
+  // border: 1px blue solid;
+  min-width: 156px;
+  padding: 4px 0px;
 }
 
-.footer-menu li:hover {
-  color: white;
+.footer-menu ul li a {
+  color: $orange;
+  font-size: 1.3rem;
+}
+
+.footer-menu ul li a:hover {
+  color: #da552f;
   cursor: pointer;
+  text-decoration: none;
   transition: all ease-in-out 100ms;
 }
 
-@media only screen and (max-width: 720px) {
-  .footer-menu ul {
-    text-align: justify;
-  }
-
-  .align-tool:last-child {
+@media only screen and (max-width: 960px) {
+  .footer-menu {
     margin-left: 0px;
   }
+  .footer-menu ul {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footer-menu {
+    margin-left: 30px;
+  }
+  .title p {
+  line-height: 16px;
+}
 }

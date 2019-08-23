@@ -83,6 +83,7 @@
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  left: 50px;
 }
 
 /* Container for image text */
@@ -126,5 +127,8 @@
 
   .mySlide img {
     width: 100%
+  }
+  .numbertext {
+    left: 0px;
   }
 }
