@@ -44,12 +44,4 @@ $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
 
 
-$hoo-gradient: linear-gradient(170deg,
-    rgba($body-bg, 0.8) 0%,
-    rgba($nav-bg, 0.9) 50%,
-    rgba($footer-bg, 1) 90%);
 
-$hoo-gradient2: linear-gradient(170deg,
-    rgba($footer-bg, 1) 0%,
-    rgba($nav-bg, 0.9) 50%,
-    rgba($body-bg, 0.8) 90%);

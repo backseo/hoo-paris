@@ -22,3 +22,12 @@ $border-radius-large: 2px;
 $border-radius-small: 2px;
 
 
+$hoo-gradient: linear-gradient(170deg,
+    rgba($body-bg, 0.8) 0%,
+    rgba($nav-bg, 0.9) 50%,
+    rgba($footer-bg, 1) 90%);
+
+$hoo-gradient2: linear-gradient(170deg,
+    rgba($footer-bg, 1) 0%,
+    rgba($nav-bg, 0.9) 50%,
+    rgba($body-bg, 0.8) 90%);
