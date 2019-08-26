@@ -34,14 +34,16 @@
 }
 
 .container-thumbs-gr {
+  border: 1px red solid;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   vertical-align: center;
   flex-wrap: wrap;
-  width: 60%;
+  padding-bottom: 30px;
+  width: 80%;
   margin: 0 auto;
-  height: 10vw;
+  min-height: 30vh;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
