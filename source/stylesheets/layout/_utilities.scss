@@ -38,11 +38,15 @@
   padding-top: 100px;
 }
 
+/* external source css */
+* {
+  box-sizing: border-box;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 body, html {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }

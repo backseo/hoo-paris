@@ -1,4 +1,4 @@
-.img-space {
+.space {
   margin: 4px;
 }
 
@@ -7,11 +7,6 @@
   justify-content: space-between;
   align-items: center;
   vertical-align: center;
-}
-
-/* external source css */
-* {
-  box-sizing: border-box;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -33,16 +28,16 @@
   width: 90%
 }
 
-.container-thumbs-gr {
+.container-thumbs {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   vertical-align: center;
   flex-wrap: wrap;
-  padding-bottom: 30px;
-  width: 80%;
-  margin: 0 auto;
-  min-height: 30vh;
+  padding: 10px;
+  margin-bottom: 10px;
+  background:rgba(#781a15,0.8);
+  border-radius: 4px;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -137,7 +132,10 @@
 }
 
 @media only screen and (max-width: 460px) {
-  .container-thumbs-gr  {
-    width: 100%;
+  @media only screen and (max-width: 460px) {
+  .container-thumbs  {
+    width: 90%;
+    margin: 10px auto;
   }
+}
 }
