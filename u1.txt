@@ -1,0 +1,22 @@
+Bonjour Monsieur Cleoron,
+Merci de votre envoi que j'ai examiné avec attention
+Je vous suggère quelques modifications pour simplifier cette première ébauche du site, ce qui, je pense, améliorera la version smartphone que j'ai trouvée très encombrée.
+Pour la page d'accueil : supprimé hoo-paris.com dans le bandeau du haut, ajouter "accueil" pour pouvoir retourner à la page d'accueil à tout moment de la navigation  et ajouter bibliographie au mot parcours (Bibiogaphie-parcours).
+Ajouter "-Paris" à mon nom.
+
+Supprimer tout le reste sauf la photo ("continuer", les textes, la vidéo, mécéart et le bandeau du bas).
+Bibliographie-parcours :
+Ajouter sous le bandeau du haut le texte qui était initialement sur la page d'accueil (Professeur de... Pour le peintre...).
+Supprimer le titre"parcours artistique et professionnel".
+Supprimer "parcours professionnel" et son texte.
+Supprimer le bandeau du bas
+L'atelier:
+Mettre mes coordonnées (mon, adresse, email, siret, tel portable, visite sur RV...), laisser la grande photo et supprimer le bandeau du bas
+
+Pour les galeries, j'y réfléchis et je vais faire les photos. Peut-être que nous ne ferons que des pages qui se succèdent et qui sont semblables à la page "petits format" actuelle (8 photos maxi) sans le bandeau du bas. Par exemple, pour la page "autres galeries" qui comporte 24 photos, la modification consisterait à faire 3 pages de 8 photos, le dernier lien de la première page ouvre la deuxième page, le dernier lien de celle-ci ouvre la troisième page et le dernier lien de celle-ci ouvre la page d'accueil. On décidera plus tard.
+Serait-il possible que, automatiquement, chaque page s'ouvre  avec la première vignette éclairée et avec la grande photo correspondante?
+Des pages ainsi allégées devraient améliorer la "version" smartphone, surtout si les 8 vignettes, pour cette version, sont beaucoup  plus petites qu'elles sont actuellement (possible?).  J'ai remarqué aussi que si le smartphone est horizontal tout est beaucoup trop grand.
+Ne faites pas de modification dans l'architecture de la partie peinture sauf, si vous voulez,  la modification  de la page "petits formats" pour voir ce que ça donne sur la version smartphone.
+Dès que mes photos seront prêtes, on se verra pour arrêter la stratégie de la partie peinture.
+A bientôt.
+Robert Hoo-Paris

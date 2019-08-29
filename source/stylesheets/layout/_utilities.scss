@@ -25,13 +25,12 @@
 }
 
 .flexbox {
-  padding-top: 40px;
+  padding-top: 8px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   vertical-align: center;
   flex-wrap: wrap;
-  background: $blackopak-bg;
 }
 
 .nav-top-offset {

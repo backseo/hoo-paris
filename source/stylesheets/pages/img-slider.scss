@@ -52,7 +52,7 @@
   position: absolute;
   top: 40%;
   width: auto;
-  padding: 16px;
+  padding: 12px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
@@ -130,11 +130,13 @@
   }
 }
 
-@media only screen and (max-width: 460px) {
   @media only screen and (max-width: 460px) {
   .container-thumbs  {
     width: 90%;
     margin: 10px auto;
   }
+  .numbertext {
+  left: -10px;
 }
 }
+
