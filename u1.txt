@@ -2,6 +2,7 @@ Bonjour Monsieur Cleoron,
 Merci de votre envoi que j'ai examiné avec attention
 Je vous suggère quelques modifications pour simplifier cette première ébauche du site, ce qui, je pense, améliorera la version smartphone que j'ai trouvée très encombrée.
 Pour la page d'accueil : supprimé hoo-paris.com dans le bandeau du haut, ajouter "accueil" pour pouvoir retourner à la page d'accueil à tout moment de la navigation  et ajouter bibliographie au mot parcours (Bibiogaphie-parcours).
+
 Ajouter "-Paris" à mon nom.
 Supprimer tout le reste sauf la photo ("continuer", les textes, la vidéo, mécéart et le bandeau du bas).
 Bibliographie-parcours :
