@@ -4,7 +4,7 @@
   padding: 18px;
   text-align: justify;
   text-indent: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin: 0 auto;
 }
 
@@ -12,29 +12,27 @@
   padding-bottom: 18px;
 }
 
-.parcours h2 {
-  color: orange;
-}
-
 .parcours h3 {
   color: orange;
+  font-size: 2.2rem;
   text-decoration: underline;
 }
 
 .parcours li {
   color: white;
+  font-size: 1.6rem;
 }
 
 
 @media only screen and (max-width: 780px) {
-  .parcours h2 {
-  font-size: 2rem;
-  text-align: center;
+  .intro-text-part {
+  font-size: 1.3rem;
   }
 
-  .parcours h3 {
+   .parcours h3 {
     font-size: 1.6rem;
   }
+
   .parcours li {
     font-size: 1.3rem;
   }
