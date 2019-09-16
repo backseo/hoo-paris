@@ -54,3 +54,9 @@
     background: $text-bg;
   }
 }
+
+@media only screen and (max-width: 920px) and (orientation: landscape) {
+  .flexbox img {
+    display: none;
+  }
+}
