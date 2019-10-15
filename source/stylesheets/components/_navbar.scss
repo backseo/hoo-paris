@@ -29,7 +29,7 @@
 /* Navbar right section (with form, links, button) */
 .navbar-hoo-right {
   border-radius: 2px;
-  background:rgba(0,0,0,0.4);
+  background: transparent;
   padding: 0px 10px;
   line-height: 28px;
   margin: 0 auto;
@@ -48,6 +48,7 @@
 /* Navbar standard link */
 .navbar-hoo-link {
   color: $orange;
+  font-size: 2.2rem;
 }
 
 .navbar-hoo-link:hover {

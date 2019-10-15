@@ -1,19 +1,20 @@
 .intro-text-part {
-  background: rgba(151,51,55,0.8);
   color: white;
   padding: 18px;
   text-align: justify;
   text-indent: 2rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin: 0 auto;
+  font-family: roboto;
 }
 
 .parcours {
   padding-bottom: 18px;
+  font-family: roboto;
 }
 
 .parcours h3 {
-  color: orange;
+  color: $orange;
   font-size: 2.2rem;
   text-decoration: underline;
 }
@@ -21,6 +22,10 @@
 .parcours li {
   color: white;
   font-size: 1.6rem;
+}
+
+.title {
+  padding-bottom: 20px;
 }
 
 
@@ -36,4 +41,8 @@
   .parcours li {
     font-size: 1.3rem;
   }
+
+  .title {
+  font-size: 1.3rem;
+}
 }

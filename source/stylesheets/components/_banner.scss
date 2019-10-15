@@ -1,6 +1,6 @@
 .banner {
   width: 100%;
-  padding-top: 150px;
+  padding-top: 100px;
   background: $blackopak-bg;
   height: 120vh;
 }
@@ -9,21 +9,12 @@
   padding-top: 90px;
   color: $orange;
   padding-bottom: 80px;
-  transform: scale(1.2);
-}
-
-.banner h2 {
-  color: rgba($orange,0.9);
-  padding-bottom: 50px;
-}
-
-.banner p {
-  padding-bottom: 10px;
-  color: rgba(255,255,255,0.8);
+  font-family: Charm;
+  font-size: 4rem;
 }
 
 .banner img {
-  border: 4px $text-bg solid;
+  border: 4px #000 solid;
   margin: 10px 0px;
 }
 
@@ -38,21 +29,6 @@
     font-size: 25px;
     transform: scale(1);
   }
-
-  .banner h2 {
-    padding-bottom: 20px;
-    font-size: 20px;
-  }
-
-  .banner p {
-    padding-bottom: 10px;
-    color: white;
-  }
-
-  .intro-text-part {
-    min-width: 80%;
-    background: $text-bg;
-  }
 }
 
 @media only screen and (max-width: 920px) and (orientation: landscape) {
@@ -60,3 +36,6 @@
     display: none;
   }
 }
+
+
+

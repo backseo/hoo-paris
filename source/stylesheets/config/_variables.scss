@@ -2,9 +2,9 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url('https://fonts.googleapis.com/css?family=Charm|Domine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Charm|roboto&display=swap');
 $base-font: "Charm", "Helvetica", "sans-serif";
-$header-font: "Domine", "Helvetica", "sans-serif";
+$header-font: "roboto", "Helvetica", "sans-serif";
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -23,10 +23,10 @@ $base-height: 1.4;
  * Colors
  * ------------------------------------- */
 // Scheme
-$body-bg:   #9c3934;
-$nav-bg:    #781a15;
+$body-bg:   #111;
+$nav-bg:    #000;
 $footer-bg: #6A0702;
-$text-bg: rgba(151,51,55,0.8);
+$text-bg: #333;
 $blackopak-bg: rgba(0,0,0,0.5);
 $brand-color: #D23333;
 
