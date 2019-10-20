@@ -126,41 +126,48 @@
     <p id="caption"></p>
   </div>
   <div class="links-btn">
-    <span></span> <span><a href="galerie1.html">galerie suivante<i class="fa fa-arrow-right"></i></a></span>
+    <!-- Control buttons -->
+    <div id="myBtnContainer">
+      <button class="btn2 active2" onclick="filterSelection('serie1')">Série 1</button>
+      <button class="btn2" onclick="filterSelection('serie2')">Série 2</button>
+      <button class="btn2" onclick="filterSelection('serie3')">Série 3</button>
+      <button class="btn2" onclick="filterSelection('serie4')">Série 4</button>
+      <button class="btn2" onclick="filterSelection('serie5')">Série 5</button>
+    </div>
   </div>
 
 <div class="container">
   <!-- Thumbnail images -->
   <div class="container-thumbs">
 
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA001.jpg" style="height:90px" onclick="currentSlide(1)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA002.jpg" style="height:90px" onclick="currentSlide(2)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA003.jpg" style="height:90px" onclick="currentSlide(3)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA004.jpg" style="height:90px" onclick="currentSlide(4)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA005.jpg" style="height:90px" onclick="currentSlide(5)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA006.jpg" style="height:90px" onclick="currentSlide(6)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA007.jpg" style="height:90px" onclick="currentSlide(7)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA008.jpg" style="height:90px" onclick="currentSlide(8)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA009.jpg" style="height:90px" onclick="currentSlide(9)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA010.jpg" style="height:90px" onclick="currentSlide(10)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA011.jpg" style="height:90px" onclick="currentSlide(11)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA012.jpg" style="height:90px" onclick="currentSlide(12)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA013.jpg" style="height:90px" onclick="currentSlide(13)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA014.jpg" style="height:90px" onclick="currentSlide(14)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA015.jpg" style="height:90px" onclick="currentSlide(15)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA016.jpg" style="height:90px" onclick="currentSlide(16)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA017.jpg" style="height:90px" onclick="currentSlide(17)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA018.jpg" style="height:90px" onclick="currentSlide(18)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA019.jpg" style="height:90px" onclick="currentSlide(19)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA020.jpg" style="height:90px" onclick="currentSlide(20)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA021.jpg" style="height:90px" onclick="currentSlide(21)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA022.jpg" style="height:90px" onclick="currentSlide(22)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA023.jpg" style="height:90px" onclick="currentSlide(23)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA024.jpg" style="height:90px" onclick="currentSlide(24)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA025.jpg" style="height:90px" onclick="currentSlide(25)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA026.jpg" style="height:90px" onclick="currentSlide(26)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA027.jpg" style="height:90px" onclick="currentSlide(27)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPFA_v3/VPFA028.jpg" style="height:90px" onclick="currentSlide(28)" alt="">
+      <img class="demo cursor filterDiv serie1 show" src="../images/peintures/VPFA_v3/VPFA001.jpg" style="height:90px" onclick="currentSlide(1)" alt="">
+      <img class="demo cursor filterDiv serie1 show" src="../images/peintures/VPFA_v3/VPFA002.jpg" style="height:90px" onclick="currentSlide(2)" alt="">
+      <img class="demo cursor filterDiv serie1 show" src="../images/peintures/VPFA_v3/VPFA003.jpg" style="height:90px" onclick="currentSlide(3)" alt="">
+      <img class="demo cursor filterDiv serie1 show" src="../images/peintures/VPFA_v3/VPFA004.jpg" style="height:90px" onclick="currentSlide(4)" alt="">
+      <img class="demo cursor filterDiv serie1 show" src="../images/peintures/VPFA_v3/VPFA005.jpg" style="height:90px" onclick="currentSlide(5)" alt="">
+      <img class="demo cursor filterDiv serie1 show" src="../images/peintures/VPFA_v3/VPFA006.jpg" style="height:90px" onclick="currentSlide(6)" alt="">
+      <img class="demo cursor filterDiv serie2" src="../images/peintures/VPFA_v3/VPFA007.jpg" style="height:90px" onclick="currentSlide(7)" alt="">
+      <img class="demo cursor filterDiv serie2" src="../images/peintures/VPFA_v3/VPFA008.jpg" style="height:90px" onclick="currentSlide(8)" alt="">
+      <img class="demo cursor filterDiv serie2" src="../images/peintures/VPFA_v3/VPFA009.jpg" style="height:90px" onclick="currentSlide(9)" alt="">
+      <img class="demo cursor filterDiv serie2" src="../images/peintures/VPFA_v3/VPFA010.jpg" style="height:90px" onclick="currentSlide(10)" alt="">
+      <img class="demo cursor filterDiv serie2" src="../images/peintures/VPFA_v3/VPFA011.jpg" style="height:90px" onclick="currentSlide(11)" alt="">
+      <img class="demo cursor filterDiv serie2" src="../images/peintures/VPFA_v3/VPFA012.jpg" style="height:90px" onclick="currentSlide(12)" alt="">
+      <img class="demo cursor filterDiv serie3" src="../images/peintures/VPFA_v3/VPFA013.jpg" style="height:90px" onclick="currentSlide(13)" alt="">
+      <img class="demo cursor filterDiv serie3" src="../images/peintures/VPFA_v3/VPFA014.jpg" style="height:90px" onclick="currentSlide(14)" alt="">
+      <img class="demo cursor filterDiv serie3" src="../images/peintures/VPFA_v3/VPFA015.jpg" style="height:90px" onclick="currentSlide(15)" alt="">
+      <img class="demo cursor filterDiv serie3" src="../images/peintures/VPFA_v3/VPFA016.jpg" style="height:90px" onclick="currentSlide(16)" alt="">
+      <img class="demo cursor filterDiv serie3" src="../images/peintures/VPFA_v3/VPFA017.jpg" style="height:90px" onclick="currentSlide(17)" alt="">
+      <img class="demo cursor filterDiv serie3" src="../images/peintures/VPFA_v3/VPFA018.jpg" style="height:90px" onclick="currentSlide(18)" alt="">
+      <img class="demo cursor filterDiv serie4" src="../images/peintures/VPFA_v3/VPFA019.jpg" style="height:90px" onclick="currentSlide(19)" alt="">
+      <img class="demo cursor filterDiv serie4" src="../images/peintures/VPFA_v3/VPFA020.jpg" style="height:90px" onclick="currentSlide(20)" alt="">
+      <img class="demo cursor filterDiv serie4" src="../images/peintures/VPFA_v3/VPFA021.jpg" style="height:90px" onclick="currentSlide(21)" alt="">
+      <img class="demo cursor filterDiv serie4" src="../images/peintures/VPFA_v3/VPFA022.jpg" style="height:90px" onclick="currentSlide(22)" alt="">
+      <img class="demo cursor filterDiv serie4" src="../images/peintures/VPFA_v3/VPFA023.jpg" style="height:90px" onclick="currentSlide(23)" alt="">
+      <img class="demo cursor filterDiv serie4" src="../images/peintures/VPFA_v3/VPFA024.jpg" style="height:90px" onclick="currentSlide(24)" alt="">
+      <img class="demo cursor filterDiv serie5" src="../images/peintures/VPFA_v3/VPFA025.jpg" style="height:90px" onclick="currentSlide(25)" alt="">
+      <img class="demo cursor filterDiv serie5" src="../images/peintures/VPFA_v3/VPFA026.jpg" style="height:90px" onclick="currentSlide(26)" alt="">
+      <img class="demo cursor filterDiv serie5" src="../images/peintures/VPFA_v3/VPFA027.jpg" style="height:90px" onclick="currentSlide(27)" alt="">
+      <img class="demo cursor filterDiv serie5" src="../images/peintures/VPFA_v3/VPFA028.jpg" style="height:90px" onclick="currentSlide(28)" alt="">
 
   </div><!-- fin container-thumbs -->
 </div><!-- fin container -->
