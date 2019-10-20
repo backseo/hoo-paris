@@ -1,0 +1,89 @@
+- name: PA001
+  thumb: url(../images/VPA_v3/PA001.jpg
+  image: url(../images/PA_v3/PA001.jpg
+  size: 30 x 30 cm
+- name: PA002
+  thumb: url(../images/VPA_v3/PA002.jpg
+  image: url(../images/PA_v3/PA002.jpg
+  size: 30 x 30 cm
+- name: PA003
+  thumb: url(../images/VPA_v3/PA003.jpg
+  image: url(../images/PA_v3/PA003.jpg
+  size: 30 x 30 cm
+- name: PA004
+  thumb: url(../images/VPA_v3/PA004.jpg
+  image: url(../images/PA_v3/PA004.jpg
+  size: 30 x 30 cm
+- name: PA005
+  thumb: url(../images/VPA_v3/PA005.jpg
+  image: url(../images/PA_v3/PA005.jpg
+  size: 50 x 50 cm
+- name: PA006
+  thumb: url(../images/VPA_v3/PA006.jpg
+  image: url(../images/PA_v3/PA006.jpg
+  size: 50 x 50 cm
+- name: PA007
+  thumb: url(../images/VPA_v3/PA007.jpg
+  image: url(../images/PA_v3/PA007.jpg
+  size: 60 x 50 cm
+- name: PA008
+  thumb: url(../images/VPA_v3/PA008.jpg
+  image: url(../images/PA_v3/PA008.jpg
+  size: 60 x 78 cm
+- name: PA009
+  thumb: url(../images/VPA_v3/PA009.jpg
+  image: url(../images/PA_v3/PA009.jpg
+  size: 60 x 78 cm
+- name: PA010
+  thumb: url(../images/VPA_v3/PA010.jpg
+  image: url(../images/PA_v3/PA010.jpg
+  size: 78 x 60 cm
+- name: PA011
+  thumb: url(../images/VPA_v3/PA011.jpg
+  image: url(../images/PA_v3/PA011.jpg
+  size: 78 x 60 cm
+- name: PA012
+  thumb: url(../images/VPA_v3/PA012.jpg
+  image: url(../images/PA_v3/PA012.jpg
+  size: 80 x 80 cm
+- name: PA013
+  thumb: url(../images/VPA_v3/PA013.jpg
+  image: url(../images/PA_v3/PA013.jpg
+  size: 80 x 80 cm
+- name: PA014
+  thumb: url(../images/VPA_v3/PA014.jpg
+  image: url(../images/PA_v3/PA014.jpg
+  size: 80 x 80 cm
+- name: PA015
+  thumb: url(../images/VPA_v3/PA015.jpg
+  image: url(../images/PA_v3/PA015.jpg
+  size: 80 x 80 cm
+- name: PA016
+  thumb: url(../images/VPA_v3/PA016.jpg
+  image: url(../images/PA_v3/PA016.jpg
+  size: 150 x 120 cm
+- name: PA017
+  thumb: url(../images/VPA_v3/PA017.jpg
+  image: url(../images/PA_v3/PA017.jpg
+  size: 150 x 120 cm
+- name: PA018
+  thumb: url(../images/VPA_v3/PA018.jpg
+  image: url(../images/PA_v3/PA018.jpg
+  size: 150 x 120 cm
+- name: PA019
+  thumb: url(../images/VPA_v3/PA019.jpg
+  image: url(../images/PA_v3/PA019.jpg
+  size: 150 x 120 cm
+- name: PA020
+  thumb: url(../images/VPA_v3/PA020.jpg
+  image: url(../images/PA_v3/PA020.jpg
+  size: unknow yet
+- name: PA021
+  thumb: url(../images/VPA_v3/PA021.jpg
+  image: url(../images/PA_v3/PA021.jpg
+  size: unknow yet
+- name: PA022
+  thumb: url(../images/VPA_v3/PA022.jpg
+  image: url(../images/PA_v3/PA022.jpg
+  size: unknow yet
+
