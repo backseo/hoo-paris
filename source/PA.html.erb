@@ -98,42 +98,48 @@
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div><!-- fin container-img -->
 
-
-
-
   <!-- Image text -->
   <div class="caption-container">
     <p id="caption"></p>
   </div>
+
   <div class="links-btn">
-    <span></span> <span><a href="galerie1.html">galerie suivante<i class="fa fa-arrow-right"></i></a></span>
+    <!-- Control buttons -->
+    <div id="myBtnContainer">
+      <!-- new code -->
+      <button class="btn active" onclick="filterSelection('serie1')">1</button>
+      <button class="btn" onclick="filterSelection('serie2')">2</button>
+      <button class="btn" onclick="filterSelection('serie3')">3</button>
+      <button class="btn" onclick="filterSelection('serie4')">4</button>
+    </div>
   </div>
 
 <div class="container">
   <!-- Thumbnail images -->
   <div class="container-thumbs">
 
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA001.jpg" style="height:90px" onclick="currentSlide(1)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA002.jpg" style="height:90px" onclick="currentSlide(2)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA003.jpg" style="height:90px" onclick="currentSlide(3)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA004.jpg" style="height:90px" onclick="currentSlide(4)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA005.jpg" style="height:90px" onclick="currentSlide(5)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA006.jpg" style="height:90px" onclick="currentSlide(6)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA007.jpg" style="height:90px" onclick="currentSlide(7)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA008.jpg" style="height:90px" onclick="currentSlide(8)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA009.jpg" style="height:90px" onclick="currentSlide(9)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA010.jpg" style="height:90px" onclick="currentSlide(10)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA011.jpg" style="height:90px" onclick="currentSlide(11)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA012.jpg" style="height:90px" onclick="currentSlide(12)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA013.jpg" style="height:90px" onclick="currentSlide(13)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA014.jpg" style="height:90px" onclick="currentSlide(14)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA015.jpg" style="height:90px" onclick="currentSlide(15)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA016.jpg" style="height:90px" onclick="currentSlide(16)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA017.jpg" style="height:90px" onclick="currentSlide(17)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA018.jpg" style="height:90px" onclick="currentSlide(18)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA019.jpg" style="height:90px" onclick="currentSlide(19)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA020.jpg" style="height:90px" onclick="currentSlide(20)" alt="">
-      <img class="demo cursor space" src="../images/peintures/VPA_v3/VPA021.jpg" style="height:90px" onclick="currentSlide(21)" alt="">
+      <img class="demo cursor space filterDiv serie1 show" src="../images/peintures/VPA_v3/VPA001.jpg" style="height:90px" onclick="currentSlide(1)" alt="">
+      <img class="demo cursor space filterDiv serie1 show" src="../images/peintures/VPA_v3/VPA002.jpg" style="height:90px" onclick="currentSlide(2)" alt="">
+      <img class="demo cursor space filterDiv serie1 show" src="../images/peintures/VPA_v3/VPA003.jpg" style="height:90px" onclick="currentSlide(3)" alt="">
+      <img class="demo cursor space filterDiv serie1 show" src="../images/peintures/VPA_v3/VPA004.jpg" style="height:90px" onclick="currentSlide(4)" alt="">
+      <img class="demo cursor space filterDiv serie1 show" src="../images/peintures/VPA_v3/VPA005.jpg" style="height:90px" onclick="currentSlide(5)" alt="">
+      <img class="demo cursor space filterDiv serie1 show" src="../images/peintures/VPA_v3/VPA006.jpg" style="height:90px" onclick="currentSlide(6)" alt="">
+      <img class="demo cursor space filterDiv serie2 " src="../images/peintures/VPA_v3/VPA007.jpg" style="height:90px" onclick="currentSlide(7)" alt="">
+      <img class="demo cursor space filterDiv serie2 " src="../images/peintures/VPA_v3/VPA008.jpg" style="height:90px" onclick="currentSlide(8)" alt="">
+      <img class="demo cursor space filterDiv serie2 " src="../images/peintures/VPA_v3/VPA009.jpg" style="height:90px" onclick="currentSlide(9)" alt="">
+      <img class="demo cursor space filterDiv serie2 " src="../images/peintures/VPA_v3/VPA010.jpg" style="height:90px" onclick="currentSlide(10)" alt="">
+      <img class="demo cursor space filterDiv serie2 " src="../images/peintures/VPA_v3/VPA011.jpg" style="height:90px" onclick="currentSlide(11)" alt="">
+      <img class="demo cursor space filterDiv serie2 " src="../images/peintures/VPA_v3/VPA012.jpg" style="height:90px" onclick="currentSlide(12)" alt="">
+      <img class="demo cursor space filterDiv serie3" src="../images/peintures/VPA_v3/VPA013.jpg" style="height:90px" onclick="currentSlide(13)" alt="">
+      <img class="demo cursor space filterDiv serie3" src="../images/peintures/VPA_v3/VPA014.jpg" style="height:90px" onclick="currentSlide(14)" alt="">
+      <img class="demo cursor space filterDiv serie3" src="../images/peintures/VPA_v3/VPA015.jpg" style="height:90px" onclick="currentSlide(15)" alt="">
+      <img class="demo cursor space filterDiv serie3" src="../images/peintures/VPA_v3/VPA016.jpg" style="height:90px" onclick="currentSlide(16)" alt="">
+      <img class="demo cursor space filterDiv serie3" src="../images/peintures/VPA_v3/VPA017.jpg" style="height:90px" onclick="currentSlide(17)" alt="">
+      <img class="demo cursor space filterDiv serie3" src="../images/peintures/VPA_v3/VPA018.jpg" style="height:90px" onclick="currentSlide(18)" alt="">
+      <img class="demo cursor space filterDiv serie4" src="../images/peintures/VPA_v3/VPA019.jpg" style="height:90px" onclick="currentSlide(19)" alt="">
+      <img class="demo cursor space filterDiv serie4" src="../images/peintures/VPA_v3/VPA020.jpg" style="height:90px" onclick="currentSlide(20)" alt="">
+      <img class="demo cursor space filterDiv serie4" src="../images/peintures/VPA_v3/VPA021.jpg" style="height:90px" onclick="currentSlide(21)" alt="">
+      <img class="demo cursor space filterDiv serie4" src="../images/peintures/VPA_v3/VPA022.jpg" style="height:90px" onclick="currentSlide(22)" alt="">
 
 
   </div><!-- fin container-thumbs -->
