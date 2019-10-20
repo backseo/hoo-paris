@@ -11,3 +11,4 @@
       $('.navbar-hoo span').css("font-size", "3.5rem");
     }
   });
+
