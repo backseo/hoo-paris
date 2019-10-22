@@ -1,3 +1,22 @@
+.parcours {
+  padding-bottom: 18px;
+  font-family: roboto;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+.title h2 {
+  font-family: $base-font;
+  font-size: 3rem;
+}
+
+.parcours li {
+  color: white;
+  font-size: 1.6rem;
+}
+
 .intro-text-part {
   color: white;
   padding: 18px;
@@ -8,34 +27,13 @@
   font-family: roboto;
 }
 
-.parcours {
-  padding-bottom: 18px;
-  font-family: roboto;
-}
-
-.title h2 {
-  color: #f28e37;
-  font-size: 2.4rem;
-  text-decoration: underline;
-}
-
-.parcours li {
-  color: white;
-  font-size: 1.6rem;
-}
-
-.title {
-  padding-bottom: 20px;
-}
-
-
 @media only screen and (max-width: 780px) {
   .intro-text-part {
   font-size: 1.3rem;
   }
 
    .title h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .parcours li {
