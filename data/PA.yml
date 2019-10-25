@@ -77,13 +77,13 @@
 - name: PA020
   thumb: url(../images/VPA_v3/PA020.jpg
   image: url(../images/PA_v3/PA020.jpg
-  size: unknow yet
+  size: 80 x 80 cm
 - name: PA021
   thumb: url(../images/VPA_v3/PA021.jpg
   image: url(../images/PA_v3/PA021.jpg
-  size: unknow yet
+  size: 50 x 50 cm
 - name: PA022
   thumb: url(../images/VPA_v3/PA022.jpg
   image: url(../images/PA_v3/PA022.jpg
-  size: unknow yet
+  size: 150 x 120 cm
 

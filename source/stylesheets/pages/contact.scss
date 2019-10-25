@@ -6,21 +6,26 @@
   min-height: 400px;
   padding: 4px;
   border-radius: 4px;
-  background: url(../images/main-bg2.jpg);
-  background-size: cover;
-  background-position: 20% 80%;
+  // background: url(../images/main-bg2.jpg);
+  // background-size: cover;
+  // background-position: 20% 80%;
+  background-color: #222;
 }
 
 .action {
   position: relative;
   text-align: center;
-  color: orange;
+  color: #f28e37;
   padding: 2px 0px;
   width: 70%;
   margin: 4px auto;
   border-radius: 4px;
   background: rgba(#222, 0.8);
   font-size: 12px;
+}
+
+.action p {
+  font-family: Roboto;
 }
 
 .stylised {
@@ -36,13 +41,23 @@
   list-style: none;
 }
 
-.form-group label,
-.form-group input {
-  font-size: 16px;
+.form-group label {
+  font-size: 18px;
   font-weight: 300;
-  color: black;
+  color: #f28e37;
 }
 
-@media only screen and (max-width: 640px) {
+.form-group input {
+  font-size: 14px;
+  font-weight: 300;
+  color: #f28e37;
+}
 
+
+#contact-btn {
+  color: #000;
+}
+
+#contact-btn:hover {
+  color: #fff;
 }

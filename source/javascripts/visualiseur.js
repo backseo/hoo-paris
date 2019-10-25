@@ -10,6 +10,7 @@ function plusSlides(n) {
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
+
 }
 
 function showSlides(n) {
@@ -30,14 +31,16 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 
   // Add active2 class to the current control button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn2");
-var current = document.getElementsByClassName("active2");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    current[0].className = current[0].className.replace("active2", " ");
-    this.className += " active2";
-  });
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn2");
+  var current = document.getElementsByClassName("active2");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      current[0].className = current[0].className.replace("active2", " ");
+      this.className += " active2";
+    });
+  }
 }
-}
+
+
 
