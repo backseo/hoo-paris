@@ -89,7 +89,6 @@
   border-radius: 3px;
 }
 
-
 .links-btn {
   display: flex;
   justify-content: space-around;
@@ -196,7 +195,7 @@
   }
 }
 
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 667px) {
   .mySlides {
     width: 70%;
     margin: 0 auto;
@@ -206,7 +205,7 @@
     width: 50%;
   }
   .container-thumbs  {
-    width: 90%;
+    width: 95%;
     margin: 10px auto;
   }
   .numbertext {
@@ -216,7 +215,7 @@
   }
 }
 
- @media only screen and (max-width: 740px) and (orientation: landscape) {
+ @media only screen and (max-width: 667px) and (orientation: landscape) {
   .mySlides {
     width: 48%;
     margin: 0 auto;
@@ -233,10 +232,17 @@
 
   .container-thumbs  {
     width: 48%;
-    margin: 10px auto;
+    margin: 0px auto;
     float: right;
   }
+
   .numbertext {
     left: -10px;
+  }
+
+  .btn2 {
+    padding: 4px 8px;
+    margin: 2px 4px;
+    line-height: 16px;
   }
 }
