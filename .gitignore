@@ -17,5 +17,4 @@
 # Ignore .DS_store file
 .DS_Store
 
-# ignorer tous fichiers texte du dossier source
-source/**/*.txt
+

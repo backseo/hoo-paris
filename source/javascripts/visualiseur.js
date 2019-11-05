@@ -1,4 +1,3 @@
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -10,7 +9,6 @@ function plusSlides(n) {
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
-
 }
 
 function showSlides(n) {
@@ -41,6 +39,3 @@ function showSlides(n) {
     });
   }
 }
-
-
-
